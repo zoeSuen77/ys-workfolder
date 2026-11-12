@@ -1,0 +1,16 @@
+# data and large outputs: never push
+processed/
+results/
+*.h5
+*.h5ad
+*.parquet
+*.tif
+*.tiff
+*.tar.gz
+*.zip
+# jupyter
+.ipynb_checkpoints/
+__pycache__/
+# server-specific
+server_paths.env
+logs/
